@@ -1,0 +1,109 @@
+/*Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selectors */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    font-size: 25px;   
+    background-color:burlywood;
+    color:cornflowerblue;
+}
+
+h1,
+h2{
+
+    margin: 20px;
+}
+
+header {
+    position: fixed;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 50px;
+    background-color:darkorchid;
+    border-bottom: 10px solid mediumslateblue;
+}
+
+footer {
+    position:absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid lightslategrey;
+    color:antiquewhite;
+}
+
+main {
+    padding: 50px 0;
+}
+
+section{
+    margin-bottom: 0;
+    padding: 20px 10px 30px 10px;
+    border-top: 5px solid crimson;
+    background-color:beige;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    border: 5px solid palevioletred;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+input {
+display: inline-block;
+width: 300px;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 350px;
+    border: 5px solid peru;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color:cadetblue;
+    color:aliceblue;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 30px 30px 5px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+/*Class Selectors*/
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
